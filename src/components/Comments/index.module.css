@@ -1,0 +1,132 @@
+.comments {
+    width: 100%;
+    background: var(--white);
+    margin-top: 2.875rem;
+}
+
+.comment1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment1 > img {
+    width: 4.591875rem;
+    height: 3.8575rem;
+    margin-right: 1.469375rem;
+}
+
+.description {
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.description > strong {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.description > span {
+    font-size: 0.75rem;
+    color: var(--gray-600);
+    line-height: 1.2rem;
+}
+
+.description > p {
+    font-size: 0.75rem;
+    color: var(--gray-600);
+    line-height: 1.6rem;
+}
+
+.comment {
+    width: 63rem;
+    height: 9.25875rem;
+    background-color: #E0DCDC;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 8px;
+}
+
+.textarea:focus {
+    border: 1px solid var(--green-200);
+    border-radius: 8px;
+}
+
+.buttonImageIcon {
+    margin-top: 3.2rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+/* .imageIcon {
+} */
+
+.imageIcon:hover {
+    color: var(--green-200);
+}
+
+.delete {
+    background: transparent;
+    border: 0;
+    color: var(--gray-900);
+    cursor: pointer;
+    /*line-height: 0; Somente utilizado para quando o botão tiver em focus
+     border-radius: 2px; */
+  }
+
+  .authorTime {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .authorAndTime strong {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--gray-900);
+  }
+  
+  .authorAndTime time {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--gray-900);
+  }
+
+
+  .description  header button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-900);
+    cursor: pointer;
+    /*line-height: 0; Somente utilizado para quando o botão tiver em focus
+     border-radius: 2px; */
+  }
+  
+  .description  header button:hover {
+    color: var(--grenn-100);
+  }
+
+  .commentArea footer {
+    margin-top: 1rem;
+  }
+  
+  .commentArea footer button {
+    background: transparent;
+    border: 0; /*resetar estilo padrão do html*/
+    color: var(--gray-400);
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+  
+    border-radius: 2px;
+  }
+  
+  .commentArea footer button:hover {
+    color: var(--green-100);
+  }
+  
+  .commentArea footer button svg {
+    margin-right: 0.5rem;
+  }
